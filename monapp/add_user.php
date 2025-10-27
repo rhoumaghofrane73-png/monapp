@@ -16,6 +16,9 @@
         <div class="mb-3">
             <label class="form-label">Email :</label>
             <input type="email" name="email" class="form-control" required>
+            <input type="tel" name="phone" pattern="[0-9]{8}" required>
+
+
         </div>
         <button type="submit" name="ajouter" class="btn btn-success">Ajouter</button>
     </form>
